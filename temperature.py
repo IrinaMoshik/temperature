@@ -11,5 +11,5 @@ def fahrenheit_to_celsius(fahrenheit):
     Convert temperature from Fahrenheit to Celsius.
     
     """
-    celsius = (fahrenheit - 32) * 5/9
+    celsius = round((fahrenheit - 32) * 5/9,1)
     return celsius
