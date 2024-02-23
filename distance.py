@@ -9,5 +9,5 @@ def meters_to_feet(meters):
     """
     Convert meters to feet using the formula: feet = meters / 0.3048
     """
-    feet = meters / 0.3048
+    feet = round(meters / 0.3048,1)
     return feet
